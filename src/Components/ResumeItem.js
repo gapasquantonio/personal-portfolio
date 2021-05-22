@@ -18,6 +18,7 @@ function ResumeItem({year, title, subTitle, text}) {
 
 const ResumeItemStyled = styled.div`
     display: flex;
+    
     @media screen and (max-width: 421px){
         p, h5, h6{
             font-size: 80%;
@@ -27,12 +28,14 @@ const ResumeItemStyled = styled.div`
         padding-bottom: 3rem;
     }
     .left-content{
+        max-width: 300px;
         width: 50%;
         padding-left: 20px;
-        position: relative;
+        //position: relative;
+        
         &::before{
             content: "";
-            position: absolute;
+            //position: absolute;
             left: -10px;
             top: 5px;
             height: 15px;
