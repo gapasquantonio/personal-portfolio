@@ -91,9 +91,9 @@ const MenuItemStyled = styled.div`
             .portfolio-image{
                 &::before{
                     content: "";
-                    position: absolute;
-                    left: 2%;
-                    top: 4%;
+                    //position:absolute;
+                    //left: 2%;
+                    //top: 4%;
                     height: 0;
                     width: 0;
                     transition: all .4s ease-in-out;
