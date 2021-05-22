@@ -52,6 +52,34 @@ function Skills() {
                             text={'80%'}
                         />
                     </div>
+                    
+                </InnerLayout>
+                <Title title={'Languages'} span={'my skills'} />
+                <InnerLayout>
+                    <div className="skills">
+                        <ProgressBar 
+                            title={'PORTUGUESE'}
+                            width={'100%'}
+                            text={'100%'}
+                        />
+                        <ProgressBar 
+                            title={'ENGLISH'}
+                            width={'99%'}
+                            text={'99%'}
+                        />
+                        <ProgressBar 
+                            title={'SPANISH'}
+                            width={'95%'}
+                            text={'95%'}
+                        />
+                        <ProgressBar 
+                             title={'GERMAN'}
+                             width={'75%'}
+                             text={'75%'}
+                        />
+                        
+                    </div>
+                    
                 </InnerLayout>
         </SkillsStyled>
     )
