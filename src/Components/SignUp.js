@@ -7,7 +7,6 @@ import * as Yup from 'yup';
 import PrimaryButton from "./PrimaryButton";
 import emailjs from 'emailjs-com';
 import styled from 'styled-components';
-import Alert from '@material-ui/lab/Alert';
 import { useTranslation } from 'react-i18next';
 
 
@@ -54,10 +53,11 @@ const sendEmail = e => {
           console.log(error.text);
         }
       );
-    alert(t('SignUp7'))
+    
     e.target.reset();
   }
 
+ 
   return (
     <Formik
     initialValues={initialValues}
@@ -88,8 +88,9 @@ const sendEmail = e => {
            
             <div className="but">
             <div className="form-field f-button">
-          <PrimaryButton title={t('SignUp8')} type="submit" formik={formik}/>
+          <PrimaryButton title={t('SignUp8')} type="submit" formik={formik} />
           </div>
+   
           <div className="form-field f-button">
           <ResetButton className="buttin"  type="reset" >Reset</ResetButton>
           </div>

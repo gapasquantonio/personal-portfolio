@@ -1,11 +1,37 @@
 import React from 'react'
 import styled from 'styled-components';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { useTranslation } from 'react-i18next';
+
 
 function PrimaryButton({title,formik}) {
+    const notify = () => toast.success(t('SignUp7'), {
+        position: "top-left",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });;
+    const { t } = useTranslation();
     return (
-        <PrimaryButtonStyled disabled={!formik.isValid || !formik.dirty}> 
+        <PrimaryButtonStyled disabled={!formik.isValid || !formik.dirty} onClick={notify}> 
             {title}
+            <ToastContainer
+position="top-left"
+autoClose={5000}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+/>
         </PrimaryButtonStyled>
+        
     )
 }
 

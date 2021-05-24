@@ -2,9 +2,10 @@
 import React from 'react'
 import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
-import Pinterest from '@material-ui/icons/Pinterest';
-
+import LaptopChromebookIcon from '@material-ui/icons/LaptopChromebook';
+import { useTranslation } from 'react-i18next';
 function Menu({menuItem}) {
+    const { t } = useTranslation();
     return (
         <MenuItemStyled >
             {
@@ -21,13 +22,13 @@ function Menu({menuItem}) {
                                     </li>
                                     <li>
                                         <a href={item.link2}>
-                                            <Pinterest />
+                                            <LaptopChromebookIcon />
                                         </a>
                                     </li>
                                 </ul>
                             </div>
                             <h6>{item.title}</h6>
-                            <p>{item.text}</p>
+                            <p>{t(item.text)}</p>
                         </div>
                     </div>
                 })
@@ -64,7 +65,7 @@ const MenuItemStyled = styled.div`
                 transition: all .4s ease-in-out;
                 position: absolute;
                 left: 50%;
-                top: 40%;
+                top: 20%;
                 opacity: 0;
                 li{
                         background-color: var(--border-color);

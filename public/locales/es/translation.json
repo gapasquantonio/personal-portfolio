@@ -9,7 +9,7 @@
         "1":"Resumen"
     },
     "Portfolios":{
-        "1":"Portfolios"
+        "1":"Trabajos"
     },
     "Contact":{
         "1":"Contacto"
@@ -30,7 +30,7 @@
     "About11":"São Paulo, Brasil",
     "Services":"SERVICIOS",
     "Services1":"Soluccion  Problemas",
-    "Home1":"Hola Mundo, Yo soy ",
+    "Home1":"Hola Mundo, yo soy ",
     "Home2":"Este es mi Portafolio Personal, aquí puedes encontrar un poco más sobre mí y mi trabajo. ",
     "Skill":"IDIOMAS ",
     "Skill1":"PORTUGUES ",
@@ -58,6 +58,12 @@
     "SignUp6":"¡Por favor, envíe su mensaje!",
     "SignUp7":"mensaje enviado!",
     "SignUp8":"Enviar correo",
-    "SignUp9":"Entre em contato"
+    "SignUp9":"Entre em contato",
+    "Project1":"Una aplicación de lista de tareas simple y volátil creada con React JS",
+    "Project2":"El rastreador Covid 19 se crea utilizando React JS.",
+    "Project3":"Clon de Disney Plus hecho con React y Firebase",
+    "Project4":"tinder-clone usando React. [Tutorial del clever programmer], aún en progreso",
+    "Project5":"Este es el proyecto final de Digital House Full Stack Web Developer. Está en fase de desarrollo, lo estamos migrando a React JS.",
+    "Project6":"Cree un formulario de registro simple con formik y use yup para la validación."
    
 }
