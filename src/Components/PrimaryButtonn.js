@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function PrimaryButton({title,formik}) {
+function PrimaryButton({title}) {
     return (
-        <PrimaryButtonStyled disabled={!formik.isValid || !formik.dirty}> 
+        <PrimaryButtonStyled > 
             {title}
         </PrimaryButtonStyled>
     )

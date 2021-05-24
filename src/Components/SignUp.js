@@ -2,10 +2,12 @@ import React from "react";
 import '../Components/SignUp.css'
 import { Formik, Form } from "formik";
 import TextField from "./TextField";
+import TextArea from "./TextArea";
 import * as Yup from 'yup';
 import PrimaryButton from "./PrimaryButton";
 import emailjs from 'emailjs-com';
 import styled from 'styled-components';
+import Alert from '@material-ui/lab/Alert';
 
 function Signup() {
 const initialValues = {
@@ -48,7 +50,7 @@ const sendEmail = e => {
           console.log(error.text);
         }
       );
-
+    alert('message send')
     e.target.reset();
   }
 
@@ -76,7 +78,7 @@ const sendEmail = e => {
             <TextField label="Enter your email*" name="email" type="email" className="input"/>
             </div>
             <div className="form-field" >
-            <TextField label="Enter your message*" name="message" type="message" className="textarea"  />
+            <TextArea label="Enter your message*" name="message" type="message" className="textarea" cols="30" rows="10"  />
           
             </div>
            
@@ -88,7 +90,7 @@ const sendEmail = e => {
           <ResetButton className="buttin"  type="reset" >Reset</ResetButton>
           </div>
           </div>
-          <pre>{JSON.stringify(formik.isValid,null,4)}</pre>
+          
          
           
           </Form>

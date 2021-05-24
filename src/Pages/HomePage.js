@@ -13,12 +13,10 @@ function HomePage() {
       </div>
       <div className="typography">
         <h1>
-          Hi, I'm <span>Gabriel Pasquantonio </span>
+          Hello World, I am <span>Gabriel Pasquantonio </span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque nihil
-          voluptates ea dolore vel repellat? Quia tenetur non quam
-          exercitationem. Lorem ipsum dolor sit amet.
+          This is my Personal Portfolio, in here you can find a little bit more about me and my work. 
         </p>
         <div className="icons">
           <a href="https://api.whatsapp.com/send?phone=5513981109924&text=Hello%20Gabriel%2C%20How%20are%20you%3F%20Just%20got%20your%20number%20from%20your%20portfolio!!" className="icon i-whatsapp">
