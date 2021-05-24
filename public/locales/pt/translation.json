@@ -1,0 +1,66 @@
+{
+    "Home":{
+        "1":"Inicio"
+    },
+    "About":{
+        "1":"Quem sou"
+    },
+    "Resume":{
+        "1":"Curriculo"
+    },
+    "Portfolios":{
+        "1":"Trabalhos"
+    },
+    "Contact":{
+        "1":"Contato"
+    },
+    "PortfolioFooter":{
+        "1":"Portfolio - Todos direitos reservados"
+    },
+    "About1":"Quem Sou Eu",
+    "About2":"Eu me chamo ",
+    "About3":"Desenvolvedor de Software apaixonado por soluçoes simples para problemas dificeis.Entusiasta dos metodos ageis, de ambientes flexiveis e propensos a entrega continua. Aceite novos desafios e resolva-os.",
+    "About4":"Nome Completo",
+    "About5":"Idade",
+    "About6":"Nacionalidade",
+    "About7":"Idiomas",
+    "About8":"Localização",
+    "About9":"Brasileiro",
+    "About10":"Portugues, Ingles, Espanhol e Alemão",
+    "About11":"São Paulo, Brasil",
+    "About12":"Baixar CV",
+    "Services":"SERVIÇOS",
+    "Services1":"Solução de Problemas",
+    "Home1":"Ola Mundo, eu sou ",
+    "Home2":"Este é o meu Portfólio Pessoal, aqui você pode encontrar um pouco mais sobre mim e meu trabalho. ",
+    "Skill":"IDIOMAS ",
+    "Skill1":"PORTUGUES ",
+    "Skill2":"INGLES ",
+    "Skill3":"ESPANHOL ",
+    "Skill4":"ALEMÃO ",
+    "ResumeItem":"Currículo ",
+    "ResumeItem1":"Experiencia Laboral ",
+    "ResumeItem2":"Analista Tributário Sênior especialista em tributos Indiretos do Canada e Estados Unidos. Canada Sales Tax Compliance para IBM Canada e suas subsidiarias.US Sales Tax Compliance para IBM CORP e IGF LLC. Sales Tax Reconciliação, reportes, e declaração e pagamento em diferentes Estados dos Estados Unidos.",
+    "ResumeItem3":"Especialista tributária com nível de coordenação, com atividades em consultoria e compliance dos tributos diretos (IRPJ e CSLL), em BR GAAP, US GAAP e IFRS, elaboração e ajustes de reportes tributários internacionais (Tax Package), Transfer Pricing, consultoria interna e atendimento à fiscalização. Planejamento Tributário focado na área de tributos diretos.",
+    "ResumeItem4":"Educação",
+    "ResumeItem5":"Henry é um Bootcamp 100% remoto e ao vivo, com duração de 16 semanas.Neste Bootcamp, os alunos aprendem atraves de revisão de codigo, pair programming,leitura e tarefas individuais.Os estudantes tem acesso a mentorias  1:1 com instrutores caso tenham alguma duvida no decorrer do curso. Henry oferece Laboratórios onde os estudantes constroem projetos reais antes da graduação, podendo seguir aprendendo apos o término do bootcamp meio de workshops, entrevistas,etc.",
+    "ResumeItem6":"Esse curso ensia tudo que voce precisa saber para desenvolver aplicações web do completo zero e se tornar um profissional na area da programação.Aprende como criar sites solidos, funcionais e aplicações atrativas utilizando o que ha de mais novo em tecnologia.O curso de  Full Stack Development abrange tanto front como backen alem de soft skills incluindo trabalho em equipe e metodologias ageis.Para graduar-se foi necessario desenvolver um site de e-commercece do zero. Nota: O curso todo foi feito em espanhol.",
+    "ResumeItem7":"Faculdade de Direito",
+    "Contact1":"Contato",
+    "Contact2":"Telefone",
+    "Contact3":"Endereço",
+    "Contact4":"Brasil",
+    "SignUp":"Permitido 20 caracteres ou menos",
+    "SignUp1":"Campo obrigatório",
+    "SignUp2":"Email inválido",
+    "SignUp3":"Email obrigatório",
+    "SignUp4":"Mensagem deve ter pelo menos 2 caracteres.",
+    "SignUp5":"Mensagem nçao deve exceder 30 caracteres",
+    "SignUp6":"Por favor, escreva sua mensagem!",
+    "SignUp7":"mensagem enviada!",
+    "SignUp8":"Enviar email",
+    "SignUp9":"Entre em contato"
+    
+
+
+}

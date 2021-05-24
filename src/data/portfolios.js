@@ -1,11 +1,14 @@
-  
+
 import img1 from '../img/portImages/todo.png';
 import img2 from '../img/portImages/disney.png';
 import img3 from '../img/portImages/covid19.png';
 import img4 from '../img/portImages/tinder.png';
 import img5 from '../img/portImages/antillas.png';
 import img6 from '../img/portImages/form.png';
+
+
 const portfolios = [
+    
     {
         id: 1,
         category: 'React',

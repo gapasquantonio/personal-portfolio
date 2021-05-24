@@ -5,7 +5,15 @@ import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Particle from "../Components/Particle";
+import { useTranslation } from 'react-i18next';
+
+
+
+
 function HomePage() {
+  const { t } = useTranslation();
+
+  
   return (
     <HomePageStyled>
       <div className="particle-con">
@@ -13,10 +21,10 @@ function HomePage() {
       </div>
       <div className="typography">
         <h1>
-          Hello World, I am <span>Gabriel Pasquantonio </span>
+        {t('Home1')} <span>Gabriel Pasquantonio </span>
         </h1>
         <p>
-          This is my Personal Portfolio, in here you can find a little bit more about me and my work. 
+        {t('Home2')}
         </p>
         <div className="icons">
           <a href="https://api.whatsapp.com/send?phone=5513981109924&text=Hello%20Gabriel%2C%20How%20are%20you%3F%20Just%20got%20your%20number%20from%20your%20portfolio!!" className="icon i-whatsapp">

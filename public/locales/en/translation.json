@@ -1,0 +1,64 @@
+{
+    "Home":{
+        "1":"Home"
+    },
+    "About":{
+        "1":"About"
+    },
+    "Resume":{
+        "1":"Resume"
+    },
+    "Portfolios":{
+        "1":"Portfolios"
+    },
+    "Contact":{
+        "1":"Contact"
+    },"PortfolioFooter":{
+        "1":"Portfolio - All rights reserved"
+    },
+    "About1":"About me",
+    "About2":"I am ",
+    "About3":"Developer passionate about simple solutions to difficult problems.Enthusiast of agile methods, flexible environments, and continuous delivery.Meet new challenges and solve them",
+    "About4":"Full Name",
+    "About5":"Age",
+    "About6":"Nationality",
+    "About7":"Languages",
+    "About8":"Location",
+    "About9":"Brazilian",
+    "About10":"Portuguese, English, Espanish e German",
+    "About11":"São Paulo, Brazil",
+    "About12":"Download CV",
+    "Services":"SERVICES",
+    "Services1":"Problem Solving",
+    "Home1":"Hello World, I am ",
+    "Home2":"This is my Personal Portfolio, in here you can find a little bit more about me and my work. ",
+    "Skill":"LANGUAGES ",
+    "Skill1":"PORTUGUESE ",
+    "Skill2":"ENGLISH ",
+    "Skill3":"SPANISH ",
+    "Skill4":"GERMAN ",
+    "ResumeItem":"Resume ",
+    "ResumeItem1":"Working Experience ",
+    "ResumeItem2":"Senior Tax Analyst in the Indirect Tax Process for Canada and United States. Canada Sales Tax Compliance for IBM Canada and its subsidiaries.US Sales Tax Compliance for IBM CORP and IGF LLC. Sales Tax Reconciliation, reporting, filing and payment of different US States. Reports with Tableau and Power BI",
+    "ResumeItem3":"Tax Specialist in consultancy and compliance on direct taxes (Income Tax and Social Contribution), on BR GAAP, US GAAP and IFRS, international tax reporting (tax package), Transfer Pricing, internal consulting and monitoring of the tax inspections and assessments.Direct Tax planning.Coordinate daily meetings.",
+    "ResumeItem4":"Educational Qualifications",
+    "ResumeItem5":"Henry is a 16-week, full-time, live remote Full Stack Web Developer bootcamp. In the Full Stack Web Developer bootcamp, students will learn through code review, pair programming, lecture, and individual homework assignments. Students will have access to 1:1 instructor support for any questions or areas of confusion. Henry offers Labs where students build real world projects prior to graduation, and X where students continue learning through workshops, talks, etc., after graduation.",
+    "ResumeItem6":"This program will teach you everything you need to develop web applications from start to finish as a professional programmer. Learn how to create sites and solid, functional and attractive web applications incorporating the latest methodologies. The Full Stack Development Course covers front and back end development in addition to soft skills including team work and agile methodologies. To graduate we had to develop an e-commerce website from scratch. Note: Classes are in Spanish",
+    "ResumeItem7":"Bachelor  degree, Law",
+    "Contact1":"Contact",
+    "Contact2":"Phone",
+    "Contact3":"Adress",
+    "Contact4":"Brazil",
+    "SignUp":"Must be 20 characters or less",
+    "SignUp1":"Required",
+    "SignUp2":"Email is invalid",
+    "SignUp3":"Email is required",
+    "SignUp4":"Message should have at least 2 characters.",
+    "SignUp5":"Message should not exceed 30 characters.",
+    "SignUp6":"Please, provide your message!",
+    "SignUp7":"message send",
+    "SignUp8":"Send email",
+    "SignUp9":"Get in touch"
+    
+
+}

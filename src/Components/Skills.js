@@ -3,8 +3,10 @@ import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import ProgressBar from './ProgressBar';
+import { useTranslation } from 'react-i18next';
 
 function Skills() {
+    const { t } = useTranslation();
     return (
         <SkillsStyled>
             
@@ -54,26 +56,26 @@ function Skills() {
                     </div>
                     
                 </InnerLayout>
-                <Title title={'Languages'} span={'my skills'} />
+                <Title title={t('Skill')} span={'languages'} />
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar 
-                            title={'PORTUGUESE'}
+                            title={t('Skill1')}
                             width={'100%'}
                             text={'100%'}
                         />
                         <ProgressBar 
-                            title={'ENGLISH'}
+                            title={t('Skill2')}
                             width={'99%'}
                             text={'99%'}
                         />
                         <ProgressBar 
-                            title={'SPANISH'}
+                            title={t('Skill3')}
                             width={'95%'}
                             text={'95%'}
                         />
                         <ProgressBar 
-                             title={'GERMAN'}
+                             title={t('Skill4')}
                              width={'75%'}
                              text={'75%'}
                         />

@@ -2,32 +2,52 @@ import React from "react";
 import styled from "styled-components";
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/avatar.png'
-
+import i18next from 'i18next';
+import { useTranslation } from 'react-i18next';
+import {
+    IconFlagBR,
+    IconFlagES,
+    IconFlagUS
+} from 'material-ui-flags';
 function Navigation() {
+    const { t } = useTranslation();
+
+    function handleClick(lang) {
+      i18next.changeLanguage(lang)
+    }
   return (
     <NavigationStyled>
       <div className="avatar">
         <img src={avatar} alt="" />
+        <nav className="nav-items">
+          <IconFlagUS onClick={()=>handleClick('en')} />
+         
+          <IconFlagBR onClick={()=>handleClick('pt')} />
+        
+          <IconFlagES onClick={()=>handleClick('es')} />
+         
+        </nav>
       </div>
+      
       <ul className="nav-items">
       <li className="nav-item">
-                    <NavLink to="/" activeClassName="active-class" exact>Home</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>{t('Home.1')}</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" activeClassName="active-class" exact>About</NavLink>
+                    <NavLink to="/about" activeClassName="active-class" exact>{t('About.1')}</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/resume" activeClassName="active-class" exact>Resume</NavLink>
+                    <NavLink to="/resume" activeClassName="active-class" exact>{t('Resume.1')}</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolios" activeClassName="active-class" exact>Portfolios</NavLink>
+                    <NavLink to="/portfolios" activeClassName="active-class" exact>{t('Portfolios.1')}</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink>
+                    <NavLink to="/contact" activeClassName="active-class" exact>{t('Contact.1')}</NavLink>
                 </li>
       </ul>
       <footer className="footer">
-      <p>@2021 <b>Portfolio - All rights reserved</b></p>
+      <p>@2021 <b>{t('PortfolioFooter.1')}</b></p>
       </footer>
     </NavigationStyled>
   );

@@ -32,10 +32,12 @@ function App() {
       setChecked(true)
     }
   }
+ 
 
   return (
     <div>
       <Sidebar navToggle={navToggle} />
+    
       <div className="light-dark-mode">
         <div className="left-content">
           <Brightness4Icon />

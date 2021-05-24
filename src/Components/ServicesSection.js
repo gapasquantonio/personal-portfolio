@@ -6,12 +6,14 @@ import ServiceCard from '../Components/ServiceCard';
 import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
 import gamedev from '../img/game-dev.svg';
+import { useTranslation } from 'react-i18next';
 
 function ServicesSection() {
+    const { t } = useTranslation();
     return (
         <InnerLayout>
             <ServicesSectionStyled>
-                <Title title={'Services'} span={'services'} />
+                <Title title={t('Services')} span={'services'} />
                 <div className="services">
                     <ServiceCard 
                         image={design} 
@@ -27,7 +29,7 @@ function ServicesSection() {
                     </div>
                     <ServiceCard 
                         image={gamedev} 
-                        title={'Problem Solving'} 
+                        title={t('Services1')} 
                         /*paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}*/
                     />
                 </div>

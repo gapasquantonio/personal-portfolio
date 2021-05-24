@@ -1,0 +1,63 @@
+{
+    "Home":{
+        "1":"Inicio"
+    },
+    "About":{
+        "1":"Sobre"
+    },
+    "Resume":{
+        "1":"Resumen"
+    },
+    "Portfolios":{
+        "1":"Portfolios"
+    },
+    "Contact":{
+        "1":"Contacto"
+    },
+    "PortfolioFooter":{
+        "1":"Portfolio - Todos derechos reservados"
+    },
+    "About1":"Sobre Mi",
+    "About2":"Yo soy ",
+    "About3":"Desarrollador apasionado por las soluciones simples a problemas difíciles.Aficionado a los métodos ágiles, entornos flexibles y entrega continua.Enfréntate a nuevos desafíos y resuélvelos.",
+    "About4":"Nombre Completo",
+    "About5":"Edad",
+    "About6":"Nacionalidad",
+    "About7":"Idiomas",
+    "About8":"Localidad",
+    "About9":"Brasileno",
+    "About10":"Portugues, Ingles, Espanol e Aleman",
+    "About11":"São Paulo, Brasil",
+    "Services":"SERVICIOS",
+    "Services1":"Soluccion  Problemas",
+    "Home1":"Hola Mundo, Yo soy ",
+    "Home2":"Este es mi Portafolio Personal, aquí puedes encontrar un poco más sobre mí y mi trabajo. ",
+    "Skill":"IDIOMAS ",
+    "Skill1":"PORTUGUES ",
+    "Skill2":"INGLES ",
+    "Skill3":"ESPANOL ",
+    "Skill4":"ALEMAN ",
+    "ResumeItem":"Resume ",
+    "ResumeItem1":"Experiencia Laboral ",
+    "ResumeItem2":"Analista Fiscal Senior en el Proceso de Impuestos Indirectos para Canadá y Estados Unidos. Cumplimiento de impuestos sobre las ventas de Canadá para IBM Canadá y sus subsidiarias Cumplimiento de impuestos sobre las ventas de EE. UU. Para IBM CORP e IGF LLC. Conciliación, reporte, presentación y pago de impuestos sobre las ventas de diferentes estados de EE. UU. Informes con Tableau y Power BI ",
+    "ResumeItem3":"Especialista Fiscal en consultoría y cumplimiento en impuestos directos (Impuesto sobre la Renta y Contribución Social), en BR GAAP, US GAAP e IFRS, reportes de impuestos internacionales (paquete tributario), Precios de Transferencia, consultoría interna y seguimiento de las inspecciones y evaluaciones tributarias. planificación. Coordinar las reuniones diarias.",
+    "ResumeItem4":"Preparación académica",
+    "ResumeItem5":"Henry is a 16-week, full-time, live remote Full Stack Web Developer bootcamp. In the Full Stack Web Developer bootcamp, students will learn through code review, pair programming, lecture, and individual homework assignments. Students will have access to 1:1 instructor support for any questions or areas of confusion. Henry offers Labs where students build real world projects prior to graduation, and X where students continue learning through workshops, talks, etc., after graduation.",
+    "ResumeItem6":"This program will teach you everything you need to develop web applications from start to finish as a professional programmer. Learn how to create sites and solid, functional and attractive web applications incorporating the latest methodologies. The Full Stack Development Course covers front and back end development in addition to soft skills including team work and agile methodologies. To graduate we had to develop an e-commerce website from scratch. Note: Classes are in Spanish",
+    "ResumeItem7":"Graduaccion en Abogacia",
+    "Contact1":"Contacto",
+    "Contact2":"Telefono",
+    "Contact3":"Ubicaccion",
+    "Contact4":"Brazil",
+    "SignUp":"Debe tener 20 caracteres o menos",
+    "SignUp1":"Campo requerido",
+    "SignUp2":"Email invalido",
+    "SignUp3":"Email obrigatório",
+    "SignUp4":"El mensaje debe tener al menos 2 caracteres.",
+    "SignUp5":"El mensaje no debe exceder los 30 caracteres.",
+    "SignUp6":"¡Por favor, envíe su mensaje!",
+    "SignUp7":"mensaje enviado!",
+    "SignUp8":"Enviar correo",
+    "SignUp9":"Entre em contato"
+   
+}

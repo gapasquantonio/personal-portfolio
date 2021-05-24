@@ -8,8 +8,12 @@ import PrimaryButton from "./PrimaryButton";
 import emailjs from 'emailjs-com';
 import styled from 'styled-components';
 import Alert from '@material-ui/lab/Alert';
+import { useTranslation } from 'react-i18next';
+
 
 function Signup() {
+  
+  const { t } = useTranslation();
 const initialValues = {
         name: "",
         email: "",
@@ -18,18 +22,18 @@ const initialValues = {
       };
 const validate = Yup.object({
     name: Yup.string()
-    .max(15, 'Must be 15 characters or less')
-    .required('Required'),
+    .max(20, t('SignUp'))
+    .required(t('SignUp1')),
     subject: Yup.string()
-    .max(20, 'Must be 20 characters or less')
-    .required('Required'),
+    .max(20, t('SignUp'))
+    .required(t('SignUp1')),
     email: Yup.string()
-    .email('Email is invalid')
-    .required('Email is required'),
+    .email(t('SignUp2'))
+    .required(t('SignUp3')),
     message: Yup.string()
-    .min(2, "Message should be at least 2 characters.")
-    .max(30, "Message should not exceed 30 characters.")
-    .required("Please, provide your message!"),
+    .min(2, t('SignUp4'))
+    .max(30, t('SignUp5'))
+    .required(t('SignUp6')),
    
 })
 const sendEmail = e => {
@@ -50,7 +54,7 @@ const sendEmail = e => {
           console.log(error.text);
         }
       );
-    alert('message send')
+    alert(t('SignUp7'))
     e.target.reset();
   }
 
@@ -66,7 +70,7 @@ const sendEmail = e => {
      
       ) => (
         <div>
-          <div className="my-4 font-weight-bold-display-4" className="contact-title"><h4>Get in Touch</h4></div>
+          <div className="my-4 font-weight-bold-display-4" className="contact-title"><h4>{t('SignUp9')}</h4></div>
           <Form className="Form"  onSubmit={sendEmail}>
           <div className="form-field">
             <TextField label="Enter Your Name*" name="name" type="text" className="input" />
@@ -84,7 +88,7 @@ const sendEmail = e => {
            
             <div className="but">
             <div className="form-field f-button">
-          <PrimaryButton title={"Send Email"} type="submit" formik={formik} >Send Mail</PrimaryButton>
+          <PrimaryButton title={t('SignUp8')} type="submit" formik={formik}/>
           </div>
           <div className="form-field f-button">
           <ResetButton className="buttin"  type="reset" >Reset</ResetButton>

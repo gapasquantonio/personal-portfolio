@@ -3,7 +3,9 @@ import styled from "styled-components";
 import resume from "../img/about.png";
 import PrimaryButtonn from "./PrimaryButtonn";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 function ImageSection() {
+  const { t } = useTranslation();
   return (
     <ImageSectionStyled>
       <div className="left-content">
@@ -11,27 +13,25 @@ function ImageSection() {
       </div>
       <div className="right-content">
         <h4>
-          I am <span>Gabriel Pasquantonio</span>
+        {t('About2')}<span>Gabriel Pasquantonio</span>
         </h4>
         <p className="paragraph">
-          Developer passionate about simple solutions to difficult problems.
-          Enthusiast of agile methods, flexible environments, and continuous
-          delivery. Meet new challenges and solve them.
+        {t('About3')}
         </p>
         <div className="about-info">
           <div className="info-title">
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality </p>
-            <p>Languages </p>
-            <p>Location</p>
+            <p>{t('About4')}</p>
+            <p>{t('About5')}</p>
+            <p>{t('About6')} </p>
+            <p>{t('About7')} </p>
+            <p>{t('About8')}</p>
           </div>
           <div className="info">
             <p>: Gabriel Domingues Pasquantonio</p>
             <p>: 27</p>
-            <p>: Brazilian </p>
-            <p>: Portuguese, Spanish, English, German </p>
-            <p>: Sâo Paulo, Brazil</p>
+            <p>: {t('About9')}</p>
+            <p>: {t('About10')} </p>
+            <p>: {t('About11')}</p>
           </div>
         </div>
         <Link

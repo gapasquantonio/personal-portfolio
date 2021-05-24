@@ -1,55 +1,24 @@
-import React,{ useState } from "react";
 import styled from "styled-components";
 import { MainLayout, InnerLayout } from "../styles/Layouts";
 import Title from "../Components/Title";
-import PrimaryButton from "../Components/PrimaryButton";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/Email";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import ContactItem from "../Components/ContactItem";
-import emailjs from 'emailjs-com';
 import Signup from '../Components/SignUp'
-
+import { useTranslation } from 'react-i18next';
 
 function ContactPage() {
   const phone = <PhoneIcon />;
   const email = <EmailIcon />;
   const location = <LocationOnIcon />;
 
-
-
-
-
-
-
-
-
-  const sendEmail = e => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_dozefge",
-        "template_nnevz1t",
-        e.target,
-        "user_dfwGjtuz4udrOufGi4W0S"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-
-    e.target.reset();
-  }
-
+  const { t } = useTranslation();
+  
   
   return (
     <MainLayout>
-      <Title title={"Contact"} span={"Contact"} />
+      <Title title={t('Contact1')} span={"Contact"} />
       <ContactPageStyled>
         <InnerLayout className={"contact-section"}>
           <div className="left-content">       
@@ -57,7 +26,7 @@ function ContactPage() {
           </div>
           <div className="right-content">
             <ContactItem
-              title={"Phone"}
+              title={t('Contact2')}
               icon={phone}
               cont1={"+55 13-981109924"}
               cont2={"+54 11-33565079"}
@@ -68,10 +37,10 @@ function ContactPage() {
               cont1={"pasquantonioo@gmail.com"}
             />
             <ContactItem
-              title={"Address"}
+              title={t('Contact3')}
               icon={location}
               cont1={"Dr Moura Ribeiro, Santos, São Paulo"}
-              cont2={"Brazil"}
+              cont2={t('Contact4')}
             />
           </div>
         </InnerLayout>
