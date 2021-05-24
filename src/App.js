@@ -18,6 +18,7 @@ function App() {
   const [theme, setTheme] =useState('dark-theme');
   const [checked, setChecked] = useState(false);
   const [navToggle, setNavToggle] = useState(false);
+
   useEffect(()=>{
     document.documentElement.className = theme;
   }, [theme]);
@@ -34,7 +35,7 @@ function App() {
 
   return (
     <div>
-      <Sidebar />
+      <Sidebar navToggle={navToggle} />
       <div className="light-dark-mode">
         <div className="left-content">
           <Brightness4Icon />

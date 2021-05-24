@@ -46,7 +46,7 @@ const ServicesSectionStyled = styled.section`
             flex-direction: column;
         }
         @media screen and (max-width:950px){
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(1, 1fr);
         }
         @media screen and (max-width:650px){
             grid-template-columns: repeat(1, 1fr);

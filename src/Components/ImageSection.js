@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import resume from '../img/about.png';
 import PrimaryButton from './PrimaryButton';
-
+import {Link} from 'react-router-dom'
 function ImageSection() {
     return (
         <ImageSectionStyled>
@@ -35,7 +35,7 @@ function ImageSection() {
                         <p>: Freelance</p>
                     </div>
                 </div>
-                <PrimaryButton title={'Download Cv'} />
+                <Link to="/files/Resume-Gabriel-Pasquantonio.pdf" target="_blank" download><PrimaryButton title={'Download Cv'} /></Link>
             </div>
         </ImageSectionStyled>
     )
@@ -46,7 +46,7 @@ const ImageSectionStyled = styled.div`
     margin-top: 5rem;
     display: flex;
     
-    @media screen and (max-width:1000px){
+    @media screen and (max-width:1900px){
         flex-direction: column;
         .left-content{
             margin-bottom: 2rem;

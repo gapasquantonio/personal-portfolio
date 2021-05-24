@@ -32,7 +32,15 @@ const ResumeItemStyled = styled.div`
         width: 50%;
         padding-left: 20px;
         //position: relative;
-        
+        @media screen and (max-width: 2000px){
+            max-width: 150px;
+    }
+    @media screen and (max-width: 1700px){
+            max-width: 100px;
+    }
+    @media screen and (max-width: 1200px){
+            max-width: 50px;
+    }
         &::before{
             content: "";
             //position: absolute;

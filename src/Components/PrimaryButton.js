@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function PrimaryButton({title}) {
+function PrimaryButton({title,formik}) {
     return (
-        <PrimaryButtonStyled>
+        <PrimaryButtonStyled disabled={!formik.isValid}> 
             {title}
         </PrimaryButtonStyled>
     )
 }
 
-const PrimaryButtonStyled = styled.a`
+const PrimaryButtonStyled = styled.button`
     background-color: var(--primary-color);
     padding: .8rem 2.5rem;
     color: white;

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function Title({title, span}) {
     return (
         <TitleStyled>
-            <h2>{title} <b><span>{span}</span></b></h2>
+            <h2>{title} </h2>
         </TitleStyled>
     )
 }
@@ -21,8 +21,14 @@ const TitleStyled = styled.div`
         @media screen and (max-width: 496px){
             font-size: 2.8rem;
         }
-        @media screen and (max-width: 370px){
+        @media screen and (max-width: 440px){
             font-size: 2rem;
+        }
+        @media screen and (max-width: 340px){
+            font-size: 1.5rem;
+        }
+        @media screen and (max-width: 250px){
+            font-size: 1rem;
         }
         &::before{
             content: "";

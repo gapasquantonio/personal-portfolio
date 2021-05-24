@@ -4,6 +4,7 @@ import img2 from '../img/portImages/disney.png';
 import img3 from '../img/portImages/covid19.png';
 import img4 from '../img/portImages/tinder.png';
 import img5 from '../img/portImages/antillas.png';
+import img6 from '../img/portImages/form.png';
 const portfolios = [
     {
         id: 1,
@@ -49,6 +50,15 @@ const portfolios = [
         link2: 'https://github.com/gabrielpasquantonio/Ecommerce-Las-Antillas',
         title: 'Ecommerce Las Antillas',
         text: 'This is the Digital House Full Stack Web Developer final project. The purpose of this work is the development of an e-commerce website for a tobacco shop called Las Antillas.This project right now is in development Phase. We are migrating it to React JS'
+    },
+    {
+        id: 6,
+        category: 'React',
+        image: img6,
+        link1: 'https://github.com/gabrielpasquantonio/react-forms',
+        link2: 'https://github.com/gabrielpasquantonio/react-forms',
+        title: 'Signup form with formik',
+        text: 'Create simple signup form with formik and use yup for the validation.'
     }
 ]
 

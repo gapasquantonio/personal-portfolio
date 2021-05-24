@@ -25,6 +25,12 @@ const ButtonStyled = styled.button`
     cursor: pointer;
     transition: all .4s ease-in-out;
     margin-bottom: .6rem;
+    @media screen and (max-width: 470px){
+        padding: .4rem 1rem;
+        }
+        @media screen and (max-width: 355px){
+        padding: .2rem .5rem;
+        }
     &:active ,&:focus{
         background-color: var(--primary-color);
     }
@@ -42,5 +48,10 @@ const ButtonsStyled = styled.div`
     flex-wrap: wrap;
     width: 70%;
     margin: 2.4rem auto;
+
+    @media screen and (max-width: 830px){
+        width: auto
+        }
+       
 `;
 export default Button;
