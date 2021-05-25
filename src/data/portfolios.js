@@ -5,6 +5,7 @@ import img3 from '../img/portImages/covid19.png';
 import img4 from '../img/portImages/tinder.png';
 import img5 from '../img/portImages/antillas.png';
 import img6 from '../img/portImages/form.png';
+import img7 from '../img/portImages/portfolio.png';
 
 
 const portfolios = [
@@ -62,6 +63,15 @@ const portfolios = [
         link2: 'https://github.com/gabrielpasquantonio/react-forms',
         title: 'Signup form with formik',
         text: 'Project6'
+    },
+    {
+        id: 7,
+        category: 'React',
+        image: img7,
+        link1: 'https://github.com/gabrielpasquantonio/personal-portfolio',
+        link2: 'https://github.com/gabrielpasquantonio/personal-portfolio',
+        title: 'Gabriel Pasquantonio Portfolio',
+        text: 'Project7'
     }
 ]
 
