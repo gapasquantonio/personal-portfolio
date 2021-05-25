@@ -38,6 +38,7 @@ function App() {
     <div>
       <Sidebar navToggle={navToggle} />
     
+      <Sidebar navToggle={navToggle} setNavToggle={setNavToggle} />
       <div className="light-dark-mode">
         <div className="left-content">
           <Brightness4Icon />
