@@ -32,13 +32,12 @@ function App() {
       setChecked(true)
     }
   }
- 
+
 
   return (
     <div>
-      <Sidebar navToggle={navToggle} />
-    
       <Sidebar navToggle={navToggle} setNavToggle={setNavToggle} />
+
       <div className="light-dark-mode">
         <div className="left-content">
           <Brightness4Icon />
@@ -97,7 +96,7 @@ const MainContentStyled = styled.main`
   @media screen and (max-width:1200px){
     margin-left: 0;
   }
- 
+
   .lines{
     position: absolute;
     min-height: 100%;
