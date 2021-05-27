@@ -24,7 +24,7 @@ const portfolios = [
         category: 'React',
         image: img3,
         link1: 'https://github.com/gabrielpasquantonio/Covid-19-Tracker',
-        link2: 'https://www.google.com',
+        link2: 'covid-19-tracker-50f8d.web.app/',
         title: 'Covid 19 Tracker',
         text: 'Project2'
     },
@@ -69,7 +69,7 @@ const portfolios = [
         category: 'React',
         image: img7,
         link1: 'https://github.com/gabrielpasquantonio/personal-portfolio',
-        link2: 'https://github.com/gabrielpasquantonio/personal-portfolio',
+        link2: 'https://gabriel-pasquantonio-portfolio.web.app/',
         title: 'Gabriel Pasquantonio Portfolio',
         text: 'Project7'
     }

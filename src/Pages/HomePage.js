@@ -27,13 +27,13 @@ function HomePage() {
         {t('Home2')}
         </p>
         <div className="icons">
-          <a href="https://api.whatsapp.com/send?phone=5513981109924&text=Hello%20Gabriel%2C%20How%20are%20you%3F%20Just%20got%20your%20number%20from%20your%20portfolio!!" className="icon i-whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=5513981109924&text=Hello%20Gabriel%2C%20How%20are%20you%3F%20Just%20got%20your%20number%20from%20your%20portfolio!!" className="icon i-whatsapp" target="_blank">
             <WhatsAppIcon />
           </a>
-          <a href="https://github.com/gabrielpasquantonio" className="icon i-github">
+          <a href="https://github.com/gabrielpasquantonio" className="icon i-github" target="_blank">
             <GithubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/gabrielpasquantonio/" className="icon i-linkedin">
+          <a href="https://www.linkedin.com/in/gabrielpasquantonio/" className="icon i-linkedin" target="_blank">
             <LinkedInIcon />
           </a>
         </div>
