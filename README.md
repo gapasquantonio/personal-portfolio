@@ -1,6 +1,6 @@
 # Gabriel Pasquantonio React Portfolio
 
-<a href="https://disney-plus-5b92e.web.app/"/>
+<a href="https://gabriel-pasquantonio-portfolio.web.app/"/>
 <img src="./main.png" />    </a>
 - My personal portfolio website
 - Built with React
@@ -9,10 +9,9 @@
 
 ##### Deployed Application:
 
-https://keatonsentak.com/
-
+https://gabriel-pasquantonio-portfolio.web.app/
 ---
 
 ##### Author
 
-Gabriel Pasquantonio - [Portfolio](https://keatonsentak.com) | [GitHub](https://github.com/gabrielpasquantonio)
+Gabriel Pasquantonio - [Portfolio](https://gabriel-pasquantonio-portfolio.web.app/) | [GitHub](https://github.com/gabrielpasquantonio)
