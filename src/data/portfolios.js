@@ -6,6 +6,7 @@ import img4 from '../img/portImages/tinder.png';
 import img5 from '../img/portImages/antillas.png';
 import img6 from '../img/portImages/form.png';
 import img7 from '../img/portImages/portfolio.png';
+import img8 from '../img/portImages/calculator.png';
 
 
 const portfolios = [
@@ -72,6 +73,15 @@ const portfolios = [
         link2: 'https://gabriel-pasquantonio-portfolio.web.app/',
         title: 'Gabriel Pasquantonio Portfolio',
         text: 'Project7'
+    },
+    {
+        id: 8,
+        category: 'Java Script',
+        image: img8,
+        link1: 'https://github.com/gabrielpasquantonio/Vanilla-JavaScript-Calculator',
+        link2: 'https://github.com/gabrielpasquantonio/Vanilla-JavaScript-Calculator',
+        title: 'Calculadora JS',
+        text: 'Project8'
     }
 ]
 
