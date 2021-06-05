@@ -66,6 +66,9 @@
     "Project5":"Este es el proyecto final de Digital House Full Stack Web Developer. Está en fase de desarrollo, lo estamos migrando a React JS.",
     "Project6":"Cree un formulario de registro simple con formik y use yup para la validación.",
     "Project7":"Mi portfolio personal creado con React JS",
-    "Project8":"Calculadora de JavaScript puramente vanilla con sintaxis y clases modernas de ES6"
+    "Project8":"Calculadora de JavaScript puramente vanilla con sintaxis y clases modernas de ES6",
+    "Project9":"Pokedex creado con  React and Hooks, consumiendo datos de una pokeapi y usando localstorage.",
+    "Project10":"El rastreador de criptocoin obtiene datos de la api de coingecko con Axios, React y chartjs",
+    "Project11":"PERN stack para crear una aplicación de tareas pendientes. La stack PERN consta de PostgreSQL, Express, React y Node.js."
    
 }
