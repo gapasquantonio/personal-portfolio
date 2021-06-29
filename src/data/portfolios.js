@@ -10,6 +10,8 @@ import img8 from '../img/portImages/calculator.png';
 import img9 from '../img/portImages/pokemon.png';
 import img10 from '../img/portImages/cripto.png';
 import img11 from '../img/portImages/pern.png';
+import img12 from '../img/portImages/mern.png';
+import img13 from '../img/portImages/thumbnail.png';
 
 const portfolios = [
     
@@ -103,16 +105,35 @@ const portfolios = [
         title: 'Criptocoin Api',
         text: 'Project10'
     },
-    ,
+    
     {
         id: 11,
-        category: 'PostgreSQL',
+        category: 'React',
         image: img11,
         link1: 'https://github.com/gabrielpasquantonio/PERN-to-do',
         link2: 'https://github.com/gabrielpasquantonio/PERN-to-do',
         title: 'PERN To-do APP',
         text: 'Project11'
+    },
+    {
+        id: 12,
+        category: 'React',
+        image: img12,
+        link1: 'https://github.com/gabrielpasquantonio/MERN-',
+        link2: 'mongodb-70101.web.app/',
+        title: 'MERN  APP',
+        text: 'Project12'
+    },
+    {
+        id: 13,
+        category: 'React',
+        image: img13,
+        link1: 'https://github.com/gabrielpasquantonio/PI-Countries-FT13',
+        link2: 'https://www.linkedin.com/feed/update/urn:li:activity:6814178000012107777/',
+        title: 'Individual Project - Henry Countries',
+        text: 'Project13'
     }
+    
 ]
 
 export default portfolios;

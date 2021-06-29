@@ -70,7 +70,9 @@
     "Project8":"Calculadora de JavaScript feita com vanilla e class - ES6",
     "Project9":"Pokedex criado com React e Hooks, consumindo dados de uma api e armazenando-os em localstorage.",
     "Project10":"Rastreador de cripto moedas que obtem  dado atraves da coingecko api. Feito com Axios, React y chartjs",
-    "Project11":"PERN stack para criar uma lista de tarefas.PERN stack consiste em fazre uma app contendo PostgreSQL, Express, React y Node.js."
+    "Project11":"PERN stack para criar uma lista de tarefas.PERN stack consiste em fazre uma app contendo PostgreSQL, Express, React y Node.js.",
+    "Project12":"MERN app com validação de login/singup feita com YUP e Formik. Banco de dados MongoDB hospedado online com Heroku.",
+    "Project13": "Este foi um projeto de três semanas do Henry College Bootcamp no qual tivemos que desenvolver um site totalmente responsivo usando a stack PERN"
     
 
 

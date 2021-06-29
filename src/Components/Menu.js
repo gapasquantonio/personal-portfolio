@@ -57,8 +57,8 @@ const MenuItemStyled = styled.div`
             }
             img{
                 width: 100%;
-                height: 30vh;
-                object-fit: cover;
+                height: 25vh;
+                
             }
             ul{
                 transform: translateY(-600px);
@@ -90,6 +90,7 @@ const MenuItemStyled = styled.div`
                     }
             }
             .portfolio-image{
+                
                 &::before{
                     content: "";
                     //position:absolute;
@@ -143,5 +144,12 @@ const MenuItemStyled = styled.div`
         }
     }
 `;
+
+
+const Img = styled.img`
+
+`;
+
+
 
 export default Menu;
