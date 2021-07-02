@@ -12,6 +12,7 @@ import img10 from '../img/portImages/cripto.png';
 import img11 from '../img/portImages/pern.png';
 import img12 from '../img/portImages/mern.png';
 import img13 from '../img/portImages/thumbnail.png';
+import img14 from '../img/portImages/github.png';
 
 const portfolios = [
     
@@ -132,6 +133,15 @@ const portfolios = [
         link2: 'https://www.linkedin.com/feed/update/urn:li:activity:6814178000012107777/',
         title: 'Individual Project - Henry Countries',
         text: 'Project13'
+    },
+    {
+        id: 14,
+        category: 'React',
+        image: img14,
+        link1: 'https://github.com/gabrielpasquantonio/github-oAuth',
+        link2: 'https://compasso-uol---github.web.app/',
+        title: 'GitHub OAuth React App',
+        text: 'Project14'
     }
     
 ]
