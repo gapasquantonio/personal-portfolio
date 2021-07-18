@@ -13,6 +13,7 @@ import img11 from '../img/portImages/pern.png';
 import img12 from '../img/portImages/mern.png';
 import img13 from '../img/portImages/thumbnail.png';
 import img14 from '../img/portImages/github.png';
+import img15 from '../img/portImages/star.png';
 
 const portfolios = [
     
@@ -142,6 +143,15 @@ const portfolios = [
         link2: 'https://compasso-uol---github.web.app/',
         title: 'GitHub OAuth React App',
         text: 'Project14'
+    },
+        {
+        id: 15,
+        category: 'React',
+        image: img15,
+        link1: 'https://github.com/gabrielpasquantonio/The-Star-Match-Game',
+        link2: 'https://star-game-1254e.web.app/',
+        title: 'The Star Match Game',
+        text: 'Project15'
     }
     
 ]

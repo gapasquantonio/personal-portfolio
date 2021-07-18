@@ -72,6 +72,7 @@
     "Project11":"PERN stack para crear una aplicación de tareas pendientes. La stack PERN consta de PostgreSQL, Express, React y Node.js.",
     "Project12":"MERN app con validación de inicio de sesión / registro realizada con YUP y Formik. Base de datos MongoDB alojada en línea con Heroku.",
     "Project13":"Este fue un proyecto de tres semanas de Henry College Bootcamp en el que tuvimos que desarrollar un sitio web totalmente receptivo utilizando la pila PERN",
-    "Project14":"React app para mostrar la autenticación OAuth con GitHub usando Firebase"
+    "Project14":"React app para mostrar la autenticación OAuth con GitHub usando Firebase",
+    "Project15":"Simple juego de conteo de estrellas que hice siguiendo el curso de Pluralsight React JS."
    
 }
